@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-#The following code is executed in pyspark console
+#The code was originally run using Ipython
+#The following code must be executed in pyspark console
 
 def mapper_fileA(line):
     line = line.strip()
